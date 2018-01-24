@@ -1,5 +1,5 @@
 from ubuntu:16.10
-env pas
+env pas=
 run apt update & apt install snap -y
 run snap install shadowsocks-libev
 expose 443
